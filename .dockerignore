@@ -1,0 +1,8 @@
+@"
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.auth/
+.git/
+"@ | Out-File -Encoding utf8 .dockerignore
